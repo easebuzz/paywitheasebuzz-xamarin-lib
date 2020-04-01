@@ -16,7 +16,9 @@ Xamarin integration kit for pay with easebuzz pay.easebuzz.in
 
   ##Note :
         Add below line into Name of Android binding library →  Transforms -> Metadata.xml <br/>
+	
 	<remove-node path="/api/package[@name='helper']/class[@name='PWEDownloadImageManager']" />
+	
                                          
  3. Sample Integration code
 

@@ -14,7 +14,7 @@ Xamarin integration kit for pay with easebuzz pay.easebuzz.in
                 - Install-Package Square.OkHttp.UrlConnection -Version 2.7.5.1 <br/>
 		- Install-Package Square.Retrofit2.ConverterGson -Version 2.4.0.1 <br/>
 
-  ##Note :
+  ## Note :
         Add below line into Name of Android binding library →  Transforms -> Metadata.xml <br/>
 	
 	<remove-node path="/api/package[@name='helper']/class[@name='PWEDownloadImageManager']" />

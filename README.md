@@ -4,12 +4,13 @@ Xamarin integration kit for pay with easebuzz pay.easebuzz.in
 
 # Basic steps to integrate PaywithEaseBuzz payment kit for xamarin.
 
- 1. Bind peb-lib.aar file in your Xamarin project using the below step's.
-	1.1 Create a new Bindings Library project starting with the Android Bindings Library template.
-	1.2 Add the AAR file to the project.
-	1.3 Set the Build Action to LibraryProjectZip of AAR file.
-	1.4 Choose a target framework that the AAR supports.
-	1.4 Build the Bindings Library.
+ 1. Bind peb-lib.aar file in your Xamarin project using the below step's.<br/>
+
+	- Create a new Bindings Library project starting with the Android Bindings Library template.
+	- Add the AAR file to the project.
+	- Set the Build Action to LibraryProjectZip of AAR file.
+	- Choose a target framework that the AAR supports.
+	- Build the Bindings Library.
 
  2. Install following native android dependencies using Xamarin Package Manager Commands.<br/>
 	(Package Manager console can be found in Tools->NuGet Package Manage - > Package Manager Console) <br/>
